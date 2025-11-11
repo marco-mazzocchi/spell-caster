@@ -1,0 +1,1 @@
+export type {Spell, Spells} from './interfaces/spell';

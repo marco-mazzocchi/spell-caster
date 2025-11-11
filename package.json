@@ -1,0 +1,21 @@
+{
+  "name": "spell-caster-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "packageManager": "npm@10.9.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "clean": "turbo run clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.6.0"
+  }
+}
