@@ -21,7 +21,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "migration:generate": "typeorm --dataSource ormconfig.ts migration:generate",
     "migration:run": "typeorm --dataSource ormconfig.ts migration:run",
-    "migration:revert": "typeorm --dataSource ormconfig.ts migration:revert"
+    "migration:revert": "typeorm --dataSource ormconfig.ts migration:revert",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
